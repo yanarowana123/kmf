@@ -1,0 +1,4 @@
+{
+  "web_server_port": 8383,
+  "db_connection_string": "server=localhost;port=1433;user id=sa;password=MyPass@word;database=f"
+}
