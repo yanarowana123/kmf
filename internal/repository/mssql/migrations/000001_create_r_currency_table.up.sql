@@ -5,3 +5,6 @@ CREATE TABLE r_currency (
     value numeric(18,2) not null,
     a_date date not null
 );
+
+CREATE UNIQUE INDEX data_code
+    ON r_currency (a_date, code);
